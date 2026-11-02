@@ -1,0 +1,27 @@
+{
+  "name": "pixelpicked-promo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "The 1,000 games promo video, made with Remotion.",
+  "scripts": {
+    "studio": "remotion studio",
+    "fetch-games": "node scripts/fetch-games.mjs",
+    "render": "remotion render Wall out/wall-16x9.mp4",
+    "render:vertical": "remotion render WallVertical out/wall-9x16.mp4",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@react-three/fiber": "9.1.2",
+    "@remotion/cli": "4.0.536",
+    "@remotion/three": "4.0.536",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.536",
+    "three": "0.170.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.8",
+    "@types/three": "0.170.0",
+    "typescript": "5.8.3"
+  }
+}

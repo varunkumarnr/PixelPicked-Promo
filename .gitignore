@@ -1,0 +1,6 @@
+node_modules
+out
+.DS_Store
+
+# Media assets (audio, clips, images) stay local
+public
